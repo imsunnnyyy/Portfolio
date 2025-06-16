@@ -28,6 +28,7 @@
       transform: translateY(-10px);
     }
   }
+
   @keyframes pulse-subtle {
     0%,
     100% {
@@ -37,6 +38,7 @@
       opacity: 0.8;
     }
   }
+
   @keyframes fade-in {
     from {
       opacity: 0;
@@ -47,6 +49,7 @@
       transform: translateY(0);
     }
   }
+
   @keyframes meteor {
     0% {
       transform: rotate(215deg) translateX(0);
@@ -69,7 +72,7 @@
 
     --card: 0 0% 100%;
 
-    --primary: 250 47% 60%;
+    --primary: 24 85% 50%;
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
@@ -81,7 +84,7 @@
 
     --card: 222 47% 8%;
 
-    --primary: 250 65% 65%;
+    --primary: 24 85% 60%;
     --primary-foreground: 213 31% 91%;
 
     --border: 217 33% 20%;
@@ -124,7 +127,7 @@
 
 @utility text-glow {
   @apply relative;
-  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+  text-shadow: 0 0 10px rgba(255, 145, 0, 0.5); /* optional glow updated to match orange */
 }
 
 @utility card-hover {
@@ -140,7 +143,7 @@
 
 @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
+         transition-all duration-300 hover:shadow-[0_0_10px_rgba(255,145,0,0.5)]
          hover:scale-105 active:scale-95;
 }
 
@@ -159,4 +162,87 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+}
+
+@layer utilities {
+  @keyframes bounce-slow {
+    0%, 100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
+
+  .animate-bounce-slow {
+    animation: bounce-slow 6s ease-in-out infinite;
+  }
+
+  @keyframes cloud-move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100vw);
+    }
+  }
+
+  .animate-cloud {
+    animation: cloud-move 60s linear infinite;
+  }
+
+  /* 🌤️ Sky Background Specific Styles */
+
+  .sky-glow {
+    @apply absolute inset-0;
+    background: radial-gradient(circle at center, #dbeafe 0%, #f0f9ff 100%);
+    animation: sky-pulse 8s ease-in-out infinite;
+  }
+
+  .sun {
+    @apply absolute rounded-full bg-yellow-400;
+    box-shadow: 0 0 60px rgba(255, 204, 0, 0.5);
+    animation: float-sun 6s ease-in-out infinite, spin-slow 20s linear infinite;
+  }
+
+  .cloud {
+    @apply absolute bg-white rounded-full opacity-70 pointer-events-none;
+    width: 200px;
+    height: 60px;
+    filter: blur(10px);
+    animation: cloud-move 60s linear infinite;
+  }
+
+  .cloud::before,
+  .cloud::after {
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    width: 100px;
+    height: 100px;
+    top: -20px;
+  }
+
+  .cloud::before {
+    left: 20px;
+  }
+
+  .cloud::after {
+    right: 20px;
+  }
+
+  @keyframes sky-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.95; }
+  }
+
+  @keyframes float-sun {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes spin-slow {
+    100% { transform: rotate(360deg); }
+  }
 }
