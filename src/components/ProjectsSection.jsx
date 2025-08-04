@@ -3,28 +3,44 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Portfolio",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 2,
-    title: "To Do App",
-    description:
-      "A To do list app made with Spring Boot Framework. ",
+    title: "Blog API Backend",
+    description: "A Spring Boot backend for managing blog posts with full CRUD support.",
     image: "/projects/project2.png",
     tags: ["JAVA", "Spring Boot"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
+    id: 2,
+    title: "Smart Summary",
+    description: "A Chrome extension that uses Gemini API to generate quick summaries from selected text.",
+    image: "/projects/project2.png",
+    tags: ["JAVA", "Spring Boot", "Gemini API"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
     id: 3,
+    title: "To-Do App",
+    description: "A simple task manager built using Spring Boot to organize daily goals.",
+    image: "/projects/project2.png",
+    tags: ["JAVA", "Spring Boot"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "Portfolio",
+    description: "Personal portfolio website built with React and TailwindCSS.",
+    image: "/projects/project1.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
     title: "Quiz App",
-    description:
-      "Responsive Quiz App made with React for Learning",
+    description: "A responsive quiz platform built in React for testing knowledge interactively.",
     image: "/projects/project3.png",
     tags: ["React", "Node.js"],
     demoUrl: "#",
@@ -52,13 +68,13 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              <div className="h-48 overflow-hidden">
+              {/* <div className="h-48 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-              </div>
+              </div> */}
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
