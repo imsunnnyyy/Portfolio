@@ -11,15 +11,15 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Full-Stack Developer | Java & Spring Boot Enthusiast
+              Backend Developer | Java & Spring Boot Enthusiast
             </h3>
 
             <p className="text-muted-foreground">
-              I'm a software developer with a background in full-stack .NET development and hands-on experience in building RESTful APIs, modern web apps, and scalable backends. After a recent sabbatical focused on sharpening my problem-solving and system design skills, I’m now diving deep into Java, Spring Boot, and backend-focused AI-integrated solutions.
+              I’m a backend-focused software developer building Java Spring Boot applications with a strong emphasis on clean architecture, REST APIs, and production-ready deployments using tools like Docker and CI/CD pipelines. I started out in .NET full-stack development, but now I’m focused on the Java backend ecosystem where I’m spending most of my time. I also know my way around React and modern frontend workflows, though my main interest is in designing scalable backend systems. I see myself as a developer in motion of learning, building, and sharpening my craft as I grow.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about clean code, backend architecture, and using tech to solve real-world problems. I’m currently working on AI-driven side projects and actively preparing for product-based roles.
+              I'm passionate about clean code, backend architecture, and using tech to solve real-world problems. I’m currently working on my side projects and actively preparing for product-based roles.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -27,7 +27,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href=""
+                href="https://flowcv.com/resume/4fd5ukbwnh7t"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

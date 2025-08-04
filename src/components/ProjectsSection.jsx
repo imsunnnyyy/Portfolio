@@ -7,8 +7,8 @@ const projects = [
     description: "A Spring Boot backend for managing blog posts with full CRUD support.",
     image: "/projects/project2.png",
     tags: ["JAVA", "Spring Boot"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://blog-app-backend.up.railway.app/",
+    githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["JAVA", "Spring Boot", "Gemini API"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["JAVA", "Spring Boot"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
     id: 4,
@@ -34,8 +34,8 @@ const projects = [
     description: "Personal portfolio website built with React and TailwindCSS.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://shashankportfolio-rho.vercel.app/",
+    githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React", "Node.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
 ];
 
