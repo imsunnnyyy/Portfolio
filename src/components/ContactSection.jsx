@@ -109,8 +109,17 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="https://www.linkedin.com/in/shashank-shekhar-192593178" target="_blank" rel="noopener noreferrer">
-  <Linkedin />
+                <a 
+  href="https://www.linkedin.com/in/shashank-shekhar-192593178" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M16 8a6 6 0 0 1 6 6v5h-4v-5a2 2 0 0 0 -4 0v5h-4v-10h4v1.5" />
+    <path d="M2 9h4v10h-4z" />
+    <path d="M4 4a2 2 0 1 1 0 4a2 2 0 0 1 0 -4" />
+  </svg>
 </a>
                 <a href="https://x.com/imsunnnyyy" target="_blank"><Twitter /></a>
               </div>
