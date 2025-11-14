@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 const skills = [
   // Backend - Java & Spring Boot (85–95%)
   { name: "Java", level: 90, category: "backend" },
+  { name: "Golang", level: 50, category: "backend" },
   { name: "Spring Boot", level: 85, category: "backend" },
 
   // Backend - Others (70–80%)
@@ -11,9 +12,6 @@ const skills = [
   { name: "Hibernate/JPA", level: 75, category: "backend" },
   { name: "SQL / PostgreSQL", level: 75, category: "backend" },
   { name: "MySQL", level: 75, category: "backend" },
-  { name: ".NET Framework", level: 75, category: "backend" },
-  { name: "ASP.NET MVC", level: 70, category: "backend" },
-  { name: "Entity Framework", level: 70, category: "backend" },
 
   // Frontend (40–50%)
   { name: "HTML/CSS", level: 50, category: "frontend" },
@@ -35,6 +33,7 @@ const skills = [
   { name: "Docker", level: 30, category: "learning" },
   { name: "System Design", level: 30, category: "learning" },
   { name: "Data Structures & Algorithms", level: 60, category: "learning" },
+ { name: "Linux", level: 30, category: "learning" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "learning"];
