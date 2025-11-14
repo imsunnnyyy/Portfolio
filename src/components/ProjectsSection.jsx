@@ -6,7 +6,7 @@ const projects = [
     title: "Blog API Backend",
     description: "A Spring Boot backend for managing blog posts with full CRUD support.",
     image: "/projects/project2.png",
-    tags: ["JAVA", "Spring Boot"],
+    tags: ["JAVA", "Spring Boot", "Docker"],
     demoUrl: "https://blog-app-backend.up.railway.app/",
     githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
