@@ -37,6 +37,15 @@ const projects = [
     demoUrl: "https://shashankportfolio-rho.vercel.app/",
     githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
+{
+  id: 6,
+  title: "Email AI",
+  description: "An AI-powered tool that helps you generate email replies with a tone you choose.",
+  image: "/projects/project2.png",
+  tags: ["JAVA", "Spring Boot", "Gemini API"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
+},
   {
     id: 5,
     title: "Quiz App",
