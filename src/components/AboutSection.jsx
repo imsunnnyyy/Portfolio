@@ -15,7 +15,11 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a backend-focused software developer building Java Spring Boot applications with a strong emphasis on clean architecture, REST APIs, and production-ready deployments using tools like Docker and CI/CD pipelines. I started out in .NET full-stack development, but now I’m focused on the Java backend ecosystem where I’m spending most of my time. I also know my way around React and modern frontend workflows, though my main interest is in designing scalable backend systems. I see myself as a developer in motion of learning, building, and sharpening my craft as I grow.
+              I’m a backend-focused developer who builds Java Spring Boot applications with a strong emphasis on clean architecture, REST APIs, and production-ready deployment workflows. Most of my work revolves around designing scalable backend systems, containerizing them with Docker, and automating delivery through CI/CD pipelines.
+
+I’m steadily expanding my DevOps muscle—learning how to run services efficiently, deploy them reliably, and understand the infrastructure they live on. I also have working knowledge of React and modern frontend tooling, but my core strength and interest sit firmly in the backend and the systems that support it.
+
+I see myself as a developer in motion—learning, shipping, refining, and raising the bar with every project.
             </p>
 
             <p className="text-muted-foreground">
