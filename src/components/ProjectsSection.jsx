@@ -1,8 +1,17 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
+   {
     id: 1,
+    title: "Patient Management System",
+    description: "Patient Management System built on microservices architechture which clear separation between patient, billing and analytic services.",
+    image: "/projects/project2.png",
+    tags: ["JAVA", "Spring Boot"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
+  },
+  {
+    id: 2,
     title: "Blog API Backend",
     description: "A Spring Boot backend for managing blog posts with full CRUD support.",
     image: "/projects/project2.png",
@@ -11,7 +20,7 @@ const projects = [
     githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
-    id: 2,
+    id: 3,
     title: "Smart Summary",
     description: "A Chrome extension that uses Gemini API to generate quick summaries from selected text.",
     image: "/projects/project2.png",
@@ -20,7 +29,7 @@ const projects = [
     githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
-    id: 3,
+    id: 4,
     title: "To-Do App",
     description: "A simple task manager built using Spring Boot to organize daily goals.",
     image: "/projects/project2.png",
@@ -29,7 +38,7 @@ const projects = [
     githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio",
     description: "Personal portfolio website built with React and TailwindCSS.",
     image: "/projects/project1.png",
@@ -38,7 +47,7 @@ const projects = [
     githubUrl: "https://github.com/imsunnnyyy?tab=repositories",
   },
   {
-    id: 5,
+    id: 6,
     title: "Quiz App",
     description: "A responsive quiz platform built in React for testing knowledge interactively.",
     image: "/projects/project3.png",
