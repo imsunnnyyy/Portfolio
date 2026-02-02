@@ -4,13 +4,16 @@ import { cn } from "@/lib/utils";
 const skills = [
   // Backend - Java & Spring Boot (85–95%)
   { name: "Java", level: 90, category: "backend" },
-  { name: "Golang", level: 50, category: "backend" },
+  { name: "Golang", level: 30, category: "backend" },
   { name: "Spring Boot", level: 85, category: "backend" },
 
   // Backend - Others (70–80%)
   { name: "REST APIs", level: 80, category: "backend" },
   { name: "Hibernate/JPA", level: 75, category: "backend" },
-  { name: "SQL / PostgreSQL", level: 75, category: "backend" },
+  { name: "gRPC", level: 60, category: "backend" },
+  { name: "Apache Kafka", level: 75, category: "backend" },
+  { name: "SQL Server", level: 75, category: "backend" },
+  { name: "PostgreSQL", level: 60, category: "backend" },
   { name: "MySQL", level: 75, category: "backend" },
 
   // Frontend (40–50%)
