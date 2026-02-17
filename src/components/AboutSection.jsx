@@ -49,7 +49,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1E0cMKIj37oRp6U1ktgta5w0kA-1-diz4/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Fk9jKvnvC30Q67ebDtZyIQYHvtucta_T/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 View CV
