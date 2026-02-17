@@ -11,79 +11,34 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Backend Developer | Java & Spring Boot Enthusiast
+              Java Backend Developer | Spring Boot | Microservices
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a backend-focused developer who builds Java Spring Boot applications with a strong emphasis on clean architecture, REST APIs, and production-ready deployment workflows. Most of my work revolves around designing scalable backend systems, containerizing them with Docker, and automating delivery through CI/CD pipelines.
-
-I’m steadily expanding my DevOps muscle—learning how to run services efficiently, deploy them reliably, and understand the infrastructure they live on. I also have working knowledge of React and modern frontend tooling, but my core strength and interest sit firmly in the backend and the systems that support it.
-
-I see myself as a developer in motion—learning, shipping, refining, and raising the bar with every project.
+              I’m a Java backend developer with around 2.5 years of experience
+              building Spring Boot microservices in enterprise healthcare
+              systems. At my previous role, I worked on services handling
+              patient enrollment, eligibility validation, and copay workflows
+              where correctness and stability mattered more than fancy
+              architecture. Most of my work involved building REST endpoints,
+              debugging multi-service request flows, publishing events to
+              Kafka, and making sure services behaved reliably across
+              environments.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about clean code, backend architecture, and using tech to solve real-world problems. I’m currently working on my side projects and actively preparing for product-based roles.
+              I’ve worked with containerized services in AWS environments using
+              ECS, RDS, and S3, and I’m comfortable supporting deployments,
+              investigating production issues, and fixing race conditions or
+              inconsistent state updates. I’ve also built backend utilities
+              integrating LLM APIs for summarization and classification, with a
+              focus on structured outputs, retries, and fallback handling so AI
+              features don’t break normal workflows.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                Get In Touch
-              </a>
-              <a
-                href="https://flowcv.com/resume/4fd5ukbwnh7t"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                View CV
-              </a>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Backend Development</h4>
-                  <p className="text-muted-foreground">
-                    Building scalable and maintainable backend systems using Java, Spring Boot, and RESTful APIs.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Settings className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">System Design & DSA</h4>
-                  <p className="text-muted-foreground">
-                    Practicing system design patterns and mastering DSA to solve real-world engineering problems efficiently.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Users className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Team Collaboration</h4>
-                  <p className="text-muted-foreground">
-                    Experienced in working within cross-functional teams, contributing to both backend and frontend modules in agile environments.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+            <p className="text-muted-foreground">
+              Outside of work, I build microservice-style backend projects using
+              Spring Boot, Kafka, gRPC, Docker, and CI/CD to stay sharp and
+              close skill gaps. I’m currently preparing for strong product
+              backend roles where I can work on real systems end-to-end and grow
+              into deeper system design and ownership.
