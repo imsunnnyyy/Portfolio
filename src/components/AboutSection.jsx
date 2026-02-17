@@ -42,3 +42,74 @@ export const AboutSection = () => {
               close skill gaps. I’m currently preparing for strong product
               backend roles where I can work on real systems end-to-end and grow
               into deeper system design and ownership.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+              <a href="#contact" className="cosmic-button">
+                Get In Touch
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1E0cMKIj37oRp6U1ktgta5w0kA-1-diz4/view?usp=sharing"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                View CV
+              </a>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6">
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Backend Development</h4>
+                  <p className="text-muted-foreground">
+                    Building and maintaining Spring Boot microservices, REST
+                    APIs, and Kafka-based event flows with focus on stability,
+                    validation, and clean service boundaries.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Settings className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    Systems & Production Debugging
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Experienced in debugging multi-service flows, fixing race
+                    conditions, investigating production issues, and supporting
+                    deployments in AWS container environments.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Users className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">AI Integration</h4>
+                  <p className="text-muted-foreground">
+                    Integrated LLM APIs into backend services for summarization,
+                    classification, and workflow routing with retries,
+                    validation, and structured response handling.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
