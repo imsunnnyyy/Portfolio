@@ -15,33 +15,41 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a Java backend developer with around 2.5 years of experience
-              building Spring Boot microservices in enterprise healthcare
-              systems. At my previous role, I worked on services handling
-              patient enrollment, eligibility validation, and copay workflows
-              where correctness and stability mattered more than fancy
-              architecture. Most of my work involved building REST endpoints,
-              debugging multi-service request flows, publishing events to
-              Kafka, and making sure services behaved reliably across
-              environments.
+              I’m a Java backend developer with about four years of experience
+              building Spring Boot microservices used in enterprise healthcare
+              and business automation platforms. My work mostly revolves around
+              designing APIs, building backend services that coordinate
+              multiple systems, and making sure production services behave
+              predictably under real workloads.
             </p>
 
             <p className="text-muted-foreground">
-              I’ve worked with containerized services in AWS environments using
-              ECS, RDS, and S3, and I’m comfortable supporting deployments,
-              investigating production issues, and fixing race conditions or
-              inconsistent state updates. I’ve also built backend utilities
-              integrating LLM APIs for summarization and classification, with a
-              focus on structured outputs, retries, and fallback handling so AI
-              features don’t break normal workflows.
+              At IQVIA, I worked on backend services supporting patient
+              enrollment and copay assistance workflows used across multiple
+              healthcare programs. These systems had strict requirements around
+              data accuracy and reliability, so a lot of my work involved
+              debugging multi-service request flows, handling validation logic,
+              and publishing operational events to Kafka so downstream systems
+              could react to workflow updates.
             </p>
 
             <p className="text-muted-foreground">
-              Outside of work, I build microservice-style backend projects using
-              Spring Boot, Kafka, gRPC, Docker, and CI/CD to stay sharp and
-              close skill gaps. I’m currently preparing for strong product
-              backend roles where I can work on real systems end-to-end and grow
-              into deeper system design and ownership.
+              More recently at Quicknify, I worked on backend services powering
+              workflow automation and reporting pipelines across client
+              platforms. I spent a good amount of time improving reporting
+              performance by rewriting PostgreSQL queries, adding indexes, and
+              introducing Redis caching on frequently used endpoints. Alongside
+              that, I also built a Spring Boot service that integrates with LLM
+              APIs to generate summaries of operational reports used internally
+              by business teams.
+            </p>
+
+            <p className="text-muted-foreground">
+              Outside of work, I build microservice-style backend systems using
+              Spring Boot, Kafka, gRPC, Docker, and AWS to stay close to modern
+              backend architecture patterns. I’m particularly interested in
+              backend roles where I can work on distributed systems, data
+              pipelines, and production-scale services end to end.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -49,7 +57,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1Fk9jKvnvC30Q67ebDtZyIQYHvtucta_T/view?usp=sharing"
+                href="https://drive.google.com/file/d/1olQHXzP8idTvh814-2aiqhsaTlvA8T6r/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 View CV
@@ -64,11 +72,11 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Backend Development</h4>
+                  <h4 className="font-semibold text-lg">Backend Systems</h4>
                   <p className="text-muted-foreground">
-                    Building and maintaining Spring Boot microservices, REST
-                    APIs, and Kafka-based event flows with focus on stability,
-                    validation, and clean service boundaries.
+                    Building Spring Boot microservices, REST APIs, and
+                    distributed backend services that integrate with databases,
+                    internal systems, and external partner platforms.
                   </p>
                 </div>
               </div>
@@ -81,12 +89,12 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Systems & Production Debugging
+                    Performance & Production Debugging
                   </h4>
                   <p className="text-muted-foreground">
-                    Experienced in debugging multi-service flows, fixing race
-                    conditions, investigating production issues, and supporting
-                    deployments in AWS container environments.
+                    Diagnosing production issues across microservices,
+                    databases, and event streams while improving query
+                    performance, caching strategies, and service stability.
                   </p>
                 </div>
               </div>
@@ -98,11 +106,13 @@ export const AboutSection = () => {
                   <Users className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">AI Integration</h4>
+                  <h4 className="font-semibold text-lg">
+                    AI-Powered Backend Features
+                  </h4>
                   <p className="text-muted-foreground">
-                    Integrated LLM APIs into backend services for summarization,
-                    classification, and workflow routing with retries,
-                    validation, and structured response handling.
+                    Integrating LLM APIs into backend services for document
+                    summarization and workflow automation with structured
+                    outputs, retries, and failure isolation.
                   </p>
                 </div>
               </div>
