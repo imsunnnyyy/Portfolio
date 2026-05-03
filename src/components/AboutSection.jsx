@@ -1,4 +1,4 @@
-import { Code, Settings, Users } from "lucide-react";
+import { Database, Workflow, BarChart3 } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -11,45 +11,39 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Java Backend Developer | Spring Boot | Microservices
+              Data Engineer | PySpark | AWS | Airflow
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a Java backend developer with about four years of experience
-              building Spring Boot microservices used in enterprise healthcare
-              and business automation platforms. My work mostly revolves around
-              designing APIs, building backend services that coordinate
-              multiple systems, and making sure production services behave
-              predictably under real workloads.
+              I’m a Data Engineer with 4+ years of experience building ETL
+              pipelines, cloud-based data workflows, and analytics-ready
+              datasets across healthcare and e-commerce domains. My work focuses
+              on ingesting, transforming, validating, and optimizing data so
+              business and analytics teams can use it reliably.
             </p>
 
             <p className="text-muted-foreground">
-              At IQVIA, I worked on backend services supporting patient
-              enrollment and copay assistance workflows used across multiple
-              healthcare programs. These systems had strict requirements around
-              data accuracy and reliability, so a lot of my work involved
-              debugging multi-service request flows, handling validation logic,
-              and publishing operational events to Kafka so downstream systems
-              could react to workflow updates.
+              At IQVIA, I worked on healthcare data platforms for pharmaceutical
+              clients, building ETL workflows using Python, SQL, PySpark,
+              Databricks, AWS S3, Glue, and DynamoDB. I worked on consolidating
+              data from multiple sources, improving transformation logic, and
+              preparing clean datasets for reporting and downstream analytics.
             </p>
 
             <p className="text-muted-foreground">
-              More recently at Quicknify, I worked on backend services powering
-              workflow automation and reporting pipelines across client
-              platforms. I spent a good amount of time improving reporting
-              performance by rewriting PostgreSQL queries, adding indexes, and
-              introducing Redis caching on frequently used endpoints. Alongside
-              that, I also built a Spring Boot service that integrates with LLM
-              APIs to generate summaries of operational reports used internally
-              by business teams.
+              At Quicknify, I worked on data engineering workflows for an
+              e-commerce client, supporting reporting, pipeline automation, and
+              cloud-based data processing. I contributed to ETL pipelines,
+              Airflow and Cloud Composer orchestration, Kafka-based event
+              processing, and SQL performance optimization.
             </p>
 
             <p className="text-muted-foreground">
-              Outside of work, I build microservice-style backend systems using
-              Spring Boot, Kafka, gRPC, Docker, and AWS to stay close to modern
-              backend architecture patterns. I’m particularly interested in
-              backend roles where I can work on distributed systems, data
-              pipelines, and production-scale services end to end.
+              My core stack includes Python, SQL, PySpark, Airflow, Kafka,
+              Databricks, AWS, Terraform, and cloud data platforms. I’m
+              particularly interested in building scalable data pipelines,
+              distributed processing systems, streaming workflows, and reliable
+              data platforms that turn raw data into useful business insights.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -57,10 +51,10 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1MKRIGB6-N4oEg2rgVvJKtqhHRMtNJtiT/view?usp=sharing"
+                href="https://flowcv.com/resume/bb2d43th7a4c"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                View CV
+                View Resume
               </a>
             </div>
           </div>
@@ -69,14 +63,16 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <Database className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Backend Systems</h4>
+                  <h4 className="font-semibold text-lg">
+                    Data Pipelines & ETL
+                  </h4>
                   <p className="text-muted-foreground">
-                    Building Spring Boot microservices, REST APIs, and
-                    distributed backend services that integrate with databases,
-                    internal systems, and external partner platforms.
+                    Building batch and cloud-based ETL pipelines using Python,
+                    SQL, PySpark, Databricks, AWS Glue, S3, and DynamoDB for
+                    clean, analytics-ready datasets.
                   </p>
                 </div>
               </div>
@@ -85,16 +81,16 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Settings className="h-6 w-6 text-primary" />
+                  <Workflow className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Performance & Production Debugging
+                    Workflow Orchestration
                   </h4>
                   <p className="text-muted-foreground">
-                    Diagnosing production issues across microservices,
-                    databases, and event streams while improving query
-                    performance, caching strategies, and service stability.
+                    Orchestrating data workflows using Airflow and Cloud
+                    Composer, with focus on reliable scheduling, dependency
+                    management, monitoring, and failure handling.
                   </p>
                 </div>
               </div>
@@ -103,16 +99,16 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Users className="h-6 w-6 text-primary" />
+                  <BarChart3 className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    AI-Powered Backend Features
+                    Analytics & Performance
                   </h4>
                   <p className="text-muted-foreground">
-                    Integrating LLM APIs into backend services for document
-                    summarization and workflow automation with structured
-                    outputs, retries, and failure isolation.
+                    Optimizing SQL queries, improving pipeline performance, and
+                    preparing reliable datasets for reporting, dashboards, and
+                    business decision-making.
                   </p>
                 </div>
               </div>

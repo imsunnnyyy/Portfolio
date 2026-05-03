@@ -2,44 +2,54 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Backend - Java & Spring Boot (85–95%)
-  { name: "Java", level: 90, category: "backend" },
-  { name: "Golang", level: 30, category: "backend" },
-  { name: "Spring Boot", level: 85, category: "backend" },
+  // Programming & Querying
+  { name: "Python", level: 85, category: "programming" },
+  { name: "SQL", level: 90, category: "programming" },
+  { name: "PySpark", level: 80, category: "programming" },
 
-  // Backend - Others (70–80%)
-  { name: "REST APIs", level: 80, category: "backend" },
-  { name: "Hibernate/JPA", level: 75, category: "backend" },
-  { name: "gRPC", level: 60, category: "backend" },
-  { name: "Apache Kafka", level: 75, category: "backend" },
-  { name: "SQL Server", level: 75, category: "backend" },
-  { name: "PostgreSQL", level: 60, category: "backend" },
-  { name: "MySQL", level: 75, category: "backend" },
+  // Data Engineering
+  { name: "ETL Pipelines", level: 90, category: "data" },
+  { name: "Data Warehousing", level: 75, category: "data" },
+  { name: "Data Modeling", level: 70, category: "data" },
+  { name: "Batch Processing", level: 85, category: "data" },
+  { name: "Data Quality Checks", level: 80, category: "data" },
+  { name: "Query Optimization", level: 85, category: "data" },
 
-  // Frontend (40–50%)
-  { name: "HTML/CSS", level: 50, category: "frontend" },
-  { name: "JavaScript", level: 50, category: "frontend" },
-  { name: "Tailwind CSS", level: 40, category: "frontend" },
+  // Cloud & Big Data
+  { name: "AWS S3", level: 85, category: "cloud" },
+  { name: "AWS Glue", level: 75, category: "cloud" },
+  { name: "AWS Athena", level: 75, category: "cloud" },
+  { name: "DynamoDB", level: 70, category: "cloud" },
+  { name: "Databricks", level: 80, category: "cloud" },
 
-  // Tools (Git & Docker: 60–70%)
-  { name: "Git/GitHub", level: 70, category: "tools" },
+  // Orchestration & Streaming
+  { name: "Apache Airflow", level: 80, category: "orchestration" },
+  { name: "Cloud Composer", level: 70, category: "orchestration" },
+  { name: "Apache Kafka", level: 75, category: "orchestration" },
+
+  // Tools
+  { name: "Git/GitHub", level: 75, category: "tools" },
   { name: "Docker", level: 60, category: "tools" },
-
-  // Tools (Others)
-  { name: "Postman", level: 85, category: "tools" },
-  { name: "VS Code", level: 90, category: "tools" },
-  { name: "IntelliJ IDEA", level: 85, category: "tools" },
-  { name: "Visual Studio", level: 85, category: "tools" },
+  { name: "Terraform", level: 65, category: "tools" },
+  { name: "Linux", level: 60, category: "tools" },
+  { name: "VS Code", level: 85, category: "tools" },
 
   // Learning
-  { name: "React", level: 45, category: "learning" },
-  { name: "Docker", level: 30, category: "learning" },
-  { name: "System Design", level: 30, category: "learning" },
+  { name: "Snowflake", level: 45, category: "learning" },
+  { name: "dbt", level: 40, category: "learning" },
+  { name: "Lakehouse Architecture", level: 50, category: "learning" },
   { name: "Data Structures & Algorithms", level: 60, category: "learning" },
- { name: "Linux", level: 30, category: "learning" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools", "learning"];
+const categories = [
+  "all",
+  "programming",
+  "data",
+  "cloud",
+  "orchestration",
+  "tools",
+  "learning",
+];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -81,12 +91,14 @@ export const SkillsSection = () => {
               <div className="text-left mb-4">
                 <h3 className="font-semibold text-lg">{skill.name}</h3>
               </div>
+
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
                   className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
                   style={{ width: skill.level + "%" }}
                 />
               </div>
+
               <div className="text-right mt-1">
                 <span className="text-sm text-muted-foreground">
                   {skill.level}%
