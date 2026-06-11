@@ -40,7 +40,7 @@ export const AboutSection = () => {
 
             <p className="text-muted-foreground">
               My core stack includes Python, SQL, PySpark, Airflow, Kafka,
-              Databricks, AWS, Terraform, and cloud data platforms. I’m
+              Databricks, Snowflake, AWS, Terraform, and cloud data platforms. I’m
               particularly interested in building scalable data pipelines,
               distributed processing systems, streaming workflows, and reliable
               data platforms that turn raw data into useful business insights.
@@ -71,7 +71,7 @@ export const AboutSection = () => {
                   </h4>
                   <p className="text-muted-foreground">
                     Building batch and cloud-based ETL pipelines using Python,
-                    SQL, PySpark, Databricks, AWS Glue, S3, and DynamoDB for
+                    SQL, PySpark, Databricks, Snowflake, AWS Glue, S3, and DynamoDB for
                     clean, analytics-ready datasets.
                   </p>
                 </div>
@@ -88,8 +88,7 @@ export const AboutSection = () => {
                     Workflow Orchestration
                   </h4>
                   <p className="text-muted-foreground">
-                    Orchestrating data workflows using Airflow and Cloud
-                    Composer, with focus on reliable scheduling, dependency
+                    Orchestrating data workflows using Airflow, with focus on reliable scheduling, dependency
                     management, monitoring, and failure handling.
                   </p>
                 </div>

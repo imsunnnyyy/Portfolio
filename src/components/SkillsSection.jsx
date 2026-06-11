@@ -21,10 +21,10 @@ const skills = [
   { name: "AWS Athena", level: 75, category: "cloud" },
   { name: "DynamoDB", level: 70, category: "cloud" },
   { name: "Databricks", level: 80, category: "cloud" },
+  { name: "Snowflake", level: 80, category: "cloud" },
 
   // Orchestration & Streaming
   { name: "Apache Airflow", level: 80, category: "orchestration" },
-  { name: "Cloud Composer", level: 70, category: "orchestration" },
   { name: "Apache Kafka", level: 75, category: "orchestration" },
 
   // Tools
@@ -35,7 +35,6 @@ const skills = [
   { name: "VS Code", level: 85, category: "tools" },
 
   // Learning
-  { name: "Snowflake", level: 45, category: "learning" },
   { name: "dbt", level: 40, category: "learning" },
   { name: "Lakehouse Architecture", level: 50, category: "learning" },
   { name: "Data Structures & Algorithms", level: 60, category: "learning" },
